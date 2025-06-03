@@ -1,20 +1,38 @@
-Cinematic App
-->You can run it locally using two steps
+🎬 Cinematic App
+A sleek and simple movie search and favorites management app powered by the OMDb API. Search for your favorite movies and save them for later!
 
-Features
+🚀 Getting Started
+You can run the app locally in just two steps:
 
-1.Movie Search
 
-#• Provides an input field where users can type a movie title.
-#• On submitting the search, fetching  movies from the OMDb API.
-#• Displays the search results with each movie’s poster, title, and release year.
-#• Shows a skeleton  while fetching data.
-#• Handle and display errors
+# 1. Install dependencies
+npm install
 
-2.Favorites Management
-#• Each movie in the search results  has a heart icon to “Add to Favorites”
-if it’s not already favorited, or “Remove from Favorites” if it is.
-#• Display a separate list of favorite movies.
-#• Persist the favorites list in localStorage so that favorites remain after
-refreshing the page.
-#• Prevents duplicate movies in the favorites list.
+# 2. Start the development server
+npm run dev
+
+
+# 🔍 Movie Search
+
+Input field to type a movie title
+Fetches movies from the OMDb API based on user input
+
+Displays:
+Movie poster,
+Title,
+Release year
+
+Shows skeleton loaders while data is loading
+Handles and displays any API or network errors
+
+# ❤️ Favorites Management
+
+* Each movie card includes a heart icon to:
+* Add to Favorites (if not already favorited)
+* Remove from Favorites (if already added)
+* Separate section to display favorite movies
+* Persists favorite list in localStorage so it's saved even after refresh
+* Prevents duplicate movies in favorites
+
+
+

@@ -10,7 +10,11 @@ function SearchMovies() {
   const [searchTerm, setSearchTerm] = useState("");
   const [hasSearched, setHasSearched] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
+<<<<<<< HEAD
   const myKey ="982f5c1e";
+=======
+  const myKey = "982f5c1e" ;
+>>>>>>> 293de30283595714ef76a395f272055357640722
 
   const handleSearch = async () => {
     setHasSearched(true);
