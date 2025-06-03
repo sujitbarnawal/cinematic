@@ -52,7 +52,7 @@ function SearchMovies() {
             onChange={(e) => setSearch(e.target.value)}
             value={search}
             placeholder="Search a movie"
-            className="w-[250px] sm:w-[400px] md:w-[500px] rounded-full text-white placeholder:text-white rounded-r-none py-4 bg-gray-600"
+            className="w-[200px] sm:w-[300px] md:w-[400px] lg:w-[500px] rounded-full text-white placeholder:text-white rounded-r-none py-4 bg-gray-600"
           />
           {isLoading?
           <Button
