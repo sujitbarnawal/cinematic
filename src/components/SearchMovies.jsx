@@ -10,7 +10,7 @@ function SearchMovies() {
   const [searchTerm, setSearchTerm] = useState("");
   const [hasSearched, setHasSearched] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
-  const myKey = import.meta.env.VITE_MOVIE_API_KEY;
+  const myKey ="982f5c1e";
 
   const handleSearch = async () => {
     setHasSearched(true);
