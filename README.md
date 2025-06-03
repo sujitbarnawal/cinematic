@@ -2,15 +2,18 @@
 A sleek and simple movie search and favorites management app powered by the OMDb API. Search for your favorite movies and save them for later!
 
 🚀 Getting Started
-You can run the app locally in just two steps:
+You can run the app locally in just four steps:
 
-# 1.Clone project in to your local device
+# 1. Clone project in to your local device
 git clone https://github.com/sujitbarnawal/cinematic.git
 
-# 2. Install dependencies
+# 2. Get in to folder
+cd cinematic
+
+# 3. Install dependencies
 npm install
 
-# 3. Start the development server
+# 4. Start the development server
 npm run dev
 
 
