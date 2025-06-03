@@ -11,7 +11,7 @@ function SearchMovies() {
   const [hasSearched, setHasSearched] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
 
-  const myKey ="982f5c1e";
+  const myKey =import.meta.env.VITE_MOVIE_API_KEY || "982f5c1e";
 
 
 
